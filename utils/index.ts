@@ -56,7 +56,7 @@ export function calculateAge(dob: Date): string {
     ageString += ` ${months} mois`;
   }
 
-  return ageString + " ans";
+  return ageString + "";
 }
 
 export const daysOfWeek = [
